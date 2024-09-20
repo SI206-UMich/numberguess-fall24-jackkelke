@@ -1,20 +1,33 @@
-# NumberGuess
-Example class
+# SI 206 Fall 2024 Homework 3
 
-# to download this repo to your local comptuer first change to a directory where you want it to go
-cd dir # to change directory to the new directory
+#### Step 1: Clone that repo to your local machine with 
+```
+git clone <link>
+```
+#### Step 2: Open your file (or the whole folder) in VSCode.
 
-# clone the repo to your local computer
-git clone url
+#### Step 3: Read the instructions and grading rubric in HW3_Instructions.pdf
 
-# how to create a commit
-cd dir # to change directory to the repo directory
+#### Step 4: Modify the code in HW3.py.  To add this file to the staging area for a commit use:
+```
+git add HW3.py
+```
+#### Step 5: As you work, run below to commit/save your changes locally often.
 
-git status # to see what files have changed are are staged
+```
+git status
+git add <file>
+git commit -m <message>
+```
 
-git add file # to add the file to the staging area
+Please commit at least 4 times while working on your project; you might commit each time you finish writing a new function or method. 
 
-git commit -m "message" # to create a commit that makes a copy of all files in the staging area
+#### Step 6: Upload your saved changes to GitHub 
 
-# to put your changes on github
+```
 git push
+```
+
+#### Step 7: Submit a link for your repository on GitHub on Canvas by the due date.
+
+You can find the link in the browser window.
